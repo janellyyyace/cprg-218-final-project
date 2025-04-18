@@ -11,13 +11,12 @@
 	<body>
 		<!-- Header -->
 		<header>
-			<div class="logo">
-				<a href="/index.html"><img src="images/favicon.png" alt="Shangri La Beach Resort logo" width="50" height="50"></a>
-				<h1 class="centered"> Shangri La Beach Resort </h1>
-			</div>
 
 			<!-- Navigation -->
 			<nav class="navbar">
+				<img src="images/favicon.png" class="logo" alt="Shangri La Beach Resort logo" width="50" height="50">
+				<h1> Shangri La Beach Resort </h1>
+				
 				<ul>
 					<li><a href="/index.html">Home</a></li>
 					<li><a href="/rooms.html">Rooms</a></li>
@@ -25,5 +24,13 @@
 					<li><a href="/dining.html">Dining</a></li>
 					<li><a href="/testimonials.html">Reviews</a></li>
 				</ul>
+
+			<!--Weather | Javascript-->
+				<div class="weather">
+					<h2>Cancun, Mexico</h2>
+					<p id = "temperature"></p>
+					<img src="" alt="" id="icon" width="25px" height="25px">
+					<script src="weather.js"></script>
+				 </div>
 			</nav>
 
