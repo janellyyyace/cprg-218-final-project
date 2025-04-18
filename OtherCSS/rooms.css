@@ -8,8 +8,7 @@
   box-sizing: border-box;
   font-family: "Poppins", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-decoration: none;
-  list-style: none;
-  
+  list-style: none; 
 }
 
 /* Navigation */
@@ -61,4 +60,110 @@
 
 .weather img {
     background-color: #503e3d;
+}
+
+/* Rooms */
+
+h3 {
+    font-size: 64px;
+    text-align: center;
+    margin-top: 20px;
+    text-transform: uppercase;
+    color: #af7f71;
+}
+
+p {
+    font-size: 24px;
+    text-align: center;
+    font-style: italic;
+    color: #503e3d;
+}
+
+.rooms {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+    gap: 1rem;
+    color: #503e3d;
+}
+
+.rooms h4{
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.rooms p {
+    font-style: normal;
+    text-align: left;
+    font-size: 16px;
+}
+
+.rooms ul {
+    font-size: 12px;
+    font-style: italic;
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+/* Room - Images */
+.roombox1 {
+    background-image: url("/images/king.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 40px;
+    width: 30%;
+    height: 750px;
+}
+
+.roombox2 {
+    background-image: url("/images/hotel-1191726_1920.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 40px;
+    width: 30%;
+    height: 750px;
+}
+
+.roombox3 {
+    background-image: url("/images/double.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 40px;
+    width: 30%;
+    height: 750px;
+}
+
+.roombox4 {
+    background-image: url("/images/hotel-1979406_1920.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 40px;
+    width: 30%;
+    height: 750px;
+}
+
+.roombox5 {
+    background-image: url("/images/hotel-room-1447201_1920.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 40px;
+    width: 30%;
+    height: 750px;
+}
+
+.roombox1:hover,
+.roombox2:hover,
+.roombox3:hover,
+.roombox4:hover,
+.roombox5:hover {
+    color: #503e3d;
+    background: #fdf4ed;
+    text-shadow: none;
 }
