@@ -62,3 +62,116 @@
 .weather img {
     background-color: #503e3d;
 }
+
+/* Hero Banner */
+
+.hero-banner {
+    min-height: calc(100vh - 70px);
+    background-image: url("/Images/noz-thumb.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 80%;
+}
+
+.content{
+    position: absolute;
+    top: 35%;
+    left: 100px;
+    color: #fdf4ed;
+    text-shadow: 2px 2px #503e3d;
+}
+
+.content h2 {
+    font-size: 64px;
+}
+
+.content p {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+/* Dining */
+
+.dining {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-gap: 20px;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+    color: #fdf4ed;
+    text-shadow: 2px 2px #503e3d;
+}
+
+.dining h5 {
+    font-size: 24px;
+}
+
+.dining p {
+    font-size: 16px;
+}
+
+.dng1 {
+    background-image: url("/Images/ishan-seefromthesky-gtt803WswnA-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    padding: 40px;
+    height: 500px;
+}
+
+.dng2 {
+    background-image: url("/Images/luigi-pozzoli-34Xicn82lY4-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    padding: 40px;
+    height: 500px;
+}
+
+.dng3 {
+    background-image: url("/images/pexels-capturedbyaugustine-14089727.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    padding: 40px;
+    height: 500px;
+}
+
+.dng4 {
+    background-image: url("/images/pexels-sarah-o-shea-98049248-9954246.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    padding: 40px;
+    height: 500px;
+}
+
+.dng5 {
+    background-image: url("/images/resort-2495217_1920.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    padding: 40px;
+    height: 500px;
+}
+
+.dng1:hover,
+.dng2:hover,
+.dng3:hover,
+.dng4:hover,
+.dng5:hover {
+    color: #503e3d;
+    background: #fdf4ed;
+    text-shadow: none;
+}
